@@ -43,7 +43,7 @@ img {
     height: 130px;
 }
 .under_search{
-    background-color:rgb(242, 234, 234);
+    background-color:rgba(238,238,238,255);
     padding-bottom: 5px;
     width: 100%;
     min-width: 440px;
