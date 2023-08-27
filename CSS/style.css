@@ -18,7 +18,7 @@ body {
     flex-direction: column;
 }
 .columns{
-    width: 1300px;
+    width: 1400px;
     padding-top: 4px;
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@ img {
 .under_search{
     background-color:rgb(242, 234, 234);
     padding-bottom: 5px;
-    width: 1300px;
+    width: 1400px;
     align-items: center;
     flex-direction: column;
 }
