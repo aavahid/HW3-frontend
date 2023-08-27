@@ -57,30 +57,30 @@ button {
     background-color: rgba(125,229,218,255);
     width: 35%;
     min-width: 148px;
-    padding-top: 10px;
     height: 90px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .second_col{
     margin-right: 4px;
     background-color:rgba(112,203,194,255) ;
-    width: 15%;
+    width: 20%;
     min-width: 131px;
     height: 90px;
-    padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .thirth_col{
-    width: 50%;
+    width: 45%;
     height: 90px;
-    padding: 3px;
     background-color: rgba(98,179,170,255) ;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .thirth_col input{
@@ -97,4 +97,5 @@ button {
 }
 .copyright{
     margin: 20px;
+    justify-content: center;
 }
