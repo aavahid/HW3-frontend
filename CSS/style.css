@@ -4,22 +4,30 @@
     box-sizing: border-box; 
 }
 body {
-  
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .top_column{
     padding-left: 100px;
     padding-right: 100px;
+    min-width: 690px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 .bottom_column{
     padding-left: 100px;
     padding-right: 100px;
+    min-width: 690px;
+
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 .columns{
     width: 100%;
@@ -27,6 +35,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: center;
 }
 
 img {
@@ -37,8 +46,10 @@ img {
     background-color:rgb(242, 234, 234);
     padding-bottom: 5px;
     width: 100%;
+    min-width: 440px;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .under_search input {
@@ -49,6 +60,7 @@ img {
     align-self: center;
     display: flex;
     flex-direction:row;
+    justify-content: center;
 }
 button {
     padding: 3px 10px;
@@ -81,6 +93,7 @@ button {
 .thirth_col{
     width: 45%;
     height: 90px;
+    min-width: 200px;
     background-color: rgba(98,179,170,255) ;
     display: flex;
     align-items: center;
@@ -101,5 +114,8 @@ button {
 }
 .copyright{
     margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     justify-content: center;
 }
