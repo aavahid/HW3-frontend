@@ -8,17 +8,21 @@ body {
     text-align: center;
 }
 .top_column{
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .bottom_column{
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .columns{
-    width: 1400px;
+    width: 100%;
     padding-top: 4px;
     display: flex;
     align-items: center;
@@ -32,7 +36,7 @@ img {
 .under_search{
     background-color:rgb(242, 234, 234);
     padding-bottom: 5px;
-    width: 1400px;
+    width: 100%;
     align-items: center;
     flex-direction: column;
 }
